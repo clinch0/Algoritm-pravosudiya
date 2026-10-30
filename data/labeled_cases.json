@@ -1,0 +1,284 @@
+{
+ "_note": "Синтетические размеченные приговоры для измерения качества экстрактора. Ожидаемые поля — ручная разметка для метрик; не являются юридическим эталоном реальных дел.",
+ "cases": [
+  {
+   "id": "L01",
+   "text": "Признан виновным в совершении преступления, предусмотренного ч. 2 ст. 158 УК РФ. Суд учёл явку с повинной, активное способствование раскрытию преступления, добровольное возмещение ущерба. Отягчающих не установлено. Назначено наказание в виде лишения свободы сроком на 2 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "fine_rub": null,
+    "probation": false,
+    "probation_years": null,
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [
+     "явка_с_повинной",
+     "активное_способствование",
+     "возмещение_ущерба"
+    ],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 2,
+    "punishment_months": null
+   }
+  },
+  {
+   "id": "L02",
+   "text": "Признан виновным по ч. 2 ст. 158 УК РФ. Наказание в виде лишения свободы сроком на один год шесть месяцев, на основании ст. 73 УК РФ условно с испытательным сроком 2 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "fine_rub": null,
+    "probation": true,
+    "probation_years": 2,
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 1,
+    "punishment_months": 6
+   }
+  },
+  {
+   "id": "L03",
+   "text": "Осуждён за покушение на кражу, то есть тайное хищение чужого имущества, с незаконным проникновением в помещение, по ч. 2 ст. 158 УК РФ. Назначено лишение свободы сроком на 1 год 6 месяцев.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "fine_rub": null,
+    "probation": false,
+    "stage": "покушение",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 1,
+    "punishment_months": 6
+   }
+  },
+  {
+   "id": "L04",
+   "text": "Признан виновным по ч. 3 ст. 158 УК РФ (кража в крупном размере). Назначено наказание в виде лишения свободы сроком на 3 года.",
+   "expected": {
+    "article": "158",
+    "part": "3",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 3,
+    "punishment_months": null
+   }
+  },
+  {
+   "id": "L05",
+   "text": "Признан виновным по ч. 1 ст. 105 УК РФ. В действиях установлен рецидив преступлений. Назначено наказание в виде лишения свободы сроком на 8 лет.",
+   "expected": {
+    "article": "105",
+    "part": "1",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": "простой",
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [
+     "рецидив"
+    ],
+    "release_grounds": [],
+    "punishment_years": 8
+   }
+  },
+  {
+   "id": "L06",
+   "text": "Признан виновным по ч. 1 ст. 105 УК РФ. Назначено наказание в виде лишения свободы сроком на 4 года с применением ст. 64 УК РФ ниже низшего предела.",
+   "expected": {
+    "article": "105",
+    "part": "1",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 4
+   }
+  },
+  {
+   "id": "L07",
+   "text": "Дата совершения преступления: 01.01.2018. Признан виновным по ч. 4 ст. 264 УК РФ. Назначено наказание в виде лишения свободы сроком на 10 лет.",
+   "expected": {
+    "article": "264",
+    "part": "4",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 10
+   }
+  },
+  {
+   "id": "L08",
+   "text": "Признан виновным по ч. 2 ст. 111 УК РФ. Назначено наказание в виде лишения свободы сроком на 6 лет.",
+   "expected": {
+    "article": "111",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 6
+   }
+  },
+  {
+   "id": "L09",
+   "text": "Признан виновным по ч. 3 ст. 159 УК РФ. Назначено наказание в виде штрафа в размере 300 000 рублей.",
+   "expected": {
+    "article": "159",
+    "part": "3",
+    "punishment_type": "штраф",
+    "fine_rub": 300000,
+    "probation": false,
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": null,
+    "punishment_months": null
+   }
+  },
+  {
+   "id": "L10",
+   "text": "Признан виновным по ч. 2 ст. 160 УК РФ. Назначено наказание в виде 1 года исправительных работ.",
+   "expected": {
+    "article": "160",
+    "part": "2",
+    "punishment_type": "исправительные работы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 1
+   }
+  },
+  {
+   "id": "L11",
+   "text": "Признан виновным по ч. 2 ст. 228 УК РФ. Назначено наказание в виде лишения свободы сроком на 4 года.",
+   "expected": {
+    "article": "228",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 4
+   }
+  },
+  {
+   "id": "L12",
+   "text": "Признан виновным по ч. 2 ст. 158 УК РФ. Рецидив отсутствует. Ущерб не возместил. Назначено наказание в виде лишения свободы сроком на 3 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 3
+   }
+  },
+  {
+   "id": "L13",
+   "text": "Подсудимый является несовершеннолетним. Признан виновным по ч. 2 ст. 158 УК РФ. Назначено наказание в виде лишения свободы сроком на 2 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": true,
+    "mitigating": [
+     "несовершеннолетний_виновный"
+    ],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 2
+   }
+  },
+  {
+   "id": "L14",
+   "text": "С подсудимым заключено досудебное соглашение о сотрудничестве. Признан виновным по ч. 2 ст. 158 УК РФ. Назначено наказание в виде лишения свободы сроком на 2 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 2
+   }
+  },
+  {
+   "id": "L15",
+   "text": "Дело рассмотрено в особом порядке (глава 40 УПК РФ). Признан виновным по ч. 2 ст. 158 УК РФ. Назначено наказание в виде лишения свободы сроком на 2 года.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 2
+   }
+  },
+  {
+   "id": "L16",
+   "text": "Признан виновным по совокупности преступлений, предусмотренных ч. 2 ст. 158 и ч. 1 ст. 161 УК РФ. Окончательное наказание в виде лишения свободы сроком на 5 лет.",
+   "expected": {
+    "article": "158",
+    "part": "2",
+    "punishment_type": "лишение свободы",
+    "stage": "оконченное",
+    "recidivism": null,
+    "is_minor": null,
+    "mitigating": [],
+    "aggravating": [],
+    "release_grounds": [],
+    "punishment_years": 5
+   }
+  }
+ ]
+}

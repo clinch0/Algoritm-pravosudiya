@@ -1,0 +1,2448 @@
+{
+ "_disclaimer": "ДЕМОНСТРАЦИОННЫЙ НАБОР санкций для прототипа. Не является официальной базой. Для продукта требуется полная база с привязкой к редакциям УК РФ на дату совершения преступления и автоматическим обновлением.",
+ "articles": [
+  {
+   "article": "105",
+   "part": "1",
+   "label": "убийство",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 6,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.01.1999 № 1"
+   ]
+  },
+  {
+   "article": "105",
+   "part": "2",
+   "label": "убийство при отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "пожизненное лишение свободы",
+    "смертная казнь",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": true,
+   "notes": [
+    "Пленум ВС РФ от 27.01.1999 № 1"
+   ]
+  },
+  {
+   "article": "107",
+   "part": "1",
+   "label": "убийство в состоянии аффекта",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "107",
+   "part": "2",
+   "label": "убийство в состоянии аффекта двух и более лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "108",
+   "part": "1",
+   "label": "убийство при превышении пределов необходимой обороны",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "108",
+   "part": "2",
+   "label": "убийство при превышении мер, необходимых для задержания",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "109",
+   "part": "1",
+   "label": "причинение смерти по неосторожности",
+   "category": "небольшой тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "109",
+   "part": "2",
+   "label": "причинение смерти по неосторожности вследствие ненадлежащего исполнения профессиональных обязанностей",
+   "category": "небольшой тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "109",
+   "part": "3",
+   "label": "причинение смерти по неосторожности двум и более лицам",
+   "category": "средней тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "111",
+   "part": "1",
+   "label": "умышленное причинение тяжкого вреда здоровью",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "111",
+   "part": "2",
+   "label": "умышленное причинение тяжкого вреда здоровью при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "111",
+   "part": "3",
+   "label": "умышленное причинение тяжкого вреда здоровью группой лиц",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "111",
+   "part": "4",
+   "label": "умышленное причинение тяжкого вреда, повлекшее смерть",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "112",
+   "part": "1",
+   "label": "умышленное причинение средней тяжести вреда здоровью",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "112",
+   "part": "2",
+   "label": "умышленное причинение средней тяжести вреда при отягчающих обстоятельствах",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "115",
+   "part": "1",
+   "label": "умышленное причинение легкого вреда здоровью",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "арест"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 40000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "115",
+   "part": "2",
+   "label": "умышленное причинение легкого вреда из хулиганских побуждений",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "обязательные работы",
+    "исправительные работы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "116.1",
+   "part": "1",
+   "label": "побои лицом, подвергнутым административному наказанию",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "арест"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 40000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "117",
+   "part": "1",
+   "label": "истязание",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "117",
+   "part": "2",
+   "label": "истязание при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "119",
+   "part": "1",
+   "label": "угроза убийством или причинением тяжкого вреда здоровью",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "обязательные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "119",
+   "part": "2",
+   "label": "угроза убийством по мотивам ненависти",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "126",
+   "part": "1",
+   "label": "похищение человека",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 24.12.2019 № 58"
+   ]
+  },
+  {
+   "article": "126",
+   "part": "2",
+   "label": "похищение человека при отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 24.12.2019 № 58"
+   ]
+  },
+  {
+   "article": "131",
+   "part": "1",
+   "label": "изнасилование",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 04.12.2014 № 16"
+   ]
+  },
+  {
+   "article": "131",
+   "part": "2",
+   "label": "изнасилование при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 4,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 04.12.2014 № 16"
+   ]
+  },
+  {
+   "article": "131",
+   "part": "3",
+   "label": "изнасилование несовершеннолетней",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 04.12.2014 № 16"
+   ]
+  },
+  {
+   "article": "131",
+   "part": "4",
+   "label": "изнасилование малолетней либо повлекшее тяжкие последствия",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 12,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 04.12.2014 № 16"
+   ]
+  },
+  {
+   "article": "131",
+   "part": "5",
+   "label": "изнасилование малолетней лицом с судимостью за половые преступления",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "пожизненное лишение свободы"
+   ],
+   "imprisonment_min_years": 15,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": true,
+   "notes": [
+    "Пленум ВС РФ от 04.12.2014 № 16"
+   ]
+  },
+  {
+   "article": "158",
+   "part": "1",
+   "label": "кража",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 80000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "158",
+   "part": "2",
+   "label": "кража при отягчающих обстоятельствах",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 200000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "158",
+   "part": "3",
+   "label": "кража в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "158",
+   "part": "4",
+   "label": "кража в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "159",
+   "part": "1",
+   "label": "мошенничество",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "159",
+   "part": "2",
+   "label": "мошенничество при отягчающих обстоятельствах",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "159",
+   "part": "3",
+   "label": "мошенничество в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "159",
+   "part": "4",
+   "label": "мошенничество в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "160",
+   "part": "1",
+   "label": "присвоение или растрата",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "160",
+   "part": "2",
+   "label": "присвоение или растрата при отягчающих обстоятельствах",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "160",
+   "part": "3",
+   "label": "присвоение или растрата в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "принудительные работы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "160",
+   "part": "4",
+   "label": "присвоение или растрата в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 30.11.2017 № 48"
+   ]
+  },
+  {
+   "article": "161",
+   "part": "1",
+   "label": "грабеж",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "161",
+   "part": "2",
+   "label": "грабеж при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 10000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "161",
+   "part": "3",
+   "label": "грабеж в особо крупном размере",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 6,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "162",
+   "part": "1",
+   "label": "разбой",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "162",
+   "part": "2",
+   "label": "разбой при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "162",
+   "part": "3",
+   "label": "разбой с незаконным проникновением в жилище либо в крупном размере",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 7,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "162",
+   "part": "4",
+   "label": "разбой при особо отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 27.12.2002 № 29"
+   ]
+  },
+  {
+   "article": "163",
+   "part": "1",
+   "label": "вымогательство",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 80000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "163",
+   "part": "2",
+   "label": "вымогательство при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "163",
+   "part": "3",
+   "label": "вымогательство при особо отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 7,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "166",
+   "part": "1",
+   "label": "неправомерное завладение автомобилем без цели хищения (угон)",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "166",
+   "part": "2",
+   "label": "угон при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 200000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "166",
+   "part": "3",
+   "label": "угон, совершенный организованной группой либо причинивший особо крупный ущерб",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "166",
+   "part": "4",
+   "label": "угон с применением насилия, опасного для жизни",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "228",
+   "part": "1",
+   "label": "незаконные приобретение и хранение наркотических средств",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "штраф",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 40000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228",
+   "part": "2",
+   "label": "незаконные приобретение и хранение наркотических средств в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228",
+   "part": "3",
+   "label": "незаконные приобретение и хранение наркотических средств в особо крупном размере",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 10,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228.1",
+   "part": "1",
+   "label": "незаконный сбыт наркотических средств",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 4,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228.1",
+   "part": "2",
+   "label": "незаконный сбыт наркотических средств при отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228.1",
+   "part": "3",
+   "label": "незаконный сбыт наркотических средств при особо отягчающих обстоятельствах",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228.1",
+   "part": "4",
+   "label": "незаконный сбыт наркотических средств в крупном размере",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 10,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": 5000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "228.1",
+   "part": "5",
+   "label": "незаконный сбыт наркотических средств в особо крупном размере",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "пожизненное лишение свободы"
+   ],
+   "imprisonment_min_years": 15,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": true,
+   "notes": [
+    "Пленум ВС РФ от 15.06.2006 № 14"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "1",
+   "label": "нарушение ПДД, повлекшее тяжкий вред здоровью",
+   "category": "небольшой тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "ограничение свободы",
+    "принудительные работы",
+    "арест",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "2",
+   "label": "нарушение ПДД в состоянии опьянения, повлекшее тяжкий вред здоровью",
+   "category": "средней тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "3",
+   "label": "нарушение ПДД, повлекшее смерть человека",
+   "category": "средней тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "4",
+   "label": "нарушение ПДД в состоянии опьянения, повлекшее смерть человека",
+   "category": "тяжкое",
+   "negligent": true,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "5",
+   "label": "нарушение ПДД, повлекшее смерть двух и более лиц",
+   "category": "средней тяжести",
+   "negligent": true,
+   "punishment_types": [
+    "принудительные работы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "264",
+   "part": "6",
+   "label": "нарушение ПДД в состоянии опьянения, повлекшее смерть двух и более лиц",
+   "category": "тяжкое",
+   "negligent": true,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": [
+    "Пленум ВС РФ от 09.12.2008 № 25"
+   ]
+  },
+  {
+   "article": "127",
+   "part": "1",
+   "label": "незаконное лишение свободы",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "арест"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "127",
+   "part": "2",
+   "label": "то же при отягчающих обстоятельствах",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "127",
+   "part": "3",
+   "label": "то же с тяжкими последствиями",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 4,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "132",
+   "part": "1",
+   "label": "насильственные действия сексуального характера",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "132",
+   "part": "2",
+   "label": "то же при отягчающих обстоятельствах",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 4,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "132",
+   "part": "3",
+   "label": "то же в отношении несовершеннолетнего",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "132",
+   "part": "4",
+   "label": "то же в отношении малолетнего либо с тяжкими последствиями",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 12,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "132",
+   "part": "5",
+   "label": "то же в отношении малолетнего лицом с судимостью",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "пожизненное лишение свободы",
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 15,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": true,
+   "notes": []
+  },
+  {
+   "article": "133",
+   "part": "1",
+   "label": "понуждение к действиям сексуального характера",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 1,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "133",
+   "part": "2",
+   "label": "то же в отношении несовершеннолетнего",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "133",
+   "part": "3",
+   "label": "то же с тяжкими последствиями",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "1",
+   "label": "половое сношение с лицом 14–15 лет",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "2",
+   "label": "то же с лицом 12–13 лет",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "3",
+   "label": "то же в отношении двух и более лиц",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "4",
+   "label": "то же группой лиц",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "5",
+   "label": "то же повторно",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 12,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "134",
+   "part": "6",
+   "label": "то же с лицом 14–15 лет лицом старше 18 лет",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "пожизненное лишение свободы",
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 15,
+   "imprisonment_max_years": 20,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": true,
+   "notes": []
+  },
+  {
+   "article": "135",
+   "part": "1",
+   "label": "развратные действия",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "135",
+   "part": "2",
+   "label": "то же в отношении лица 12–13 лет",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "135",
+   "part": "3",
+   "label": "то же в отношении двух и более лиц",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "135",
+   "part": "4",
+   "label": "то же группой лиц",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы"
+   ],
+   "imprisonment_min_years": 7,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "135",
+   "part": "5",
+   "label": "то же повторно",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 10,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "158.1",
+   "part": "1",
+   "label": "мелкое хищение лицом, подвергнутым административному наказанию",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 1,
+   "fine_min_rub": null,
+   "fine_max_rub": 40000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.1",
+   "part": "1",
+   "label": "мошенничество в сфере кредитования",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.1",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.1",
+   "part": "3",
+   "label": "то же с использованием служебного положения либо в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.1",
+   "part": "4",
+   "label": "то же организованной группой либо в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.2",
+   "part": "1",
+   "label": "мошенничество при получении выплат",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.2",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.2",
+   "part": "3",
+   "label": "то же с использованием служебного положения либо в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.2",
+   "part": "4",
+   "label": "то же организованной группой либо в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.3",
+   "part": "1",
+   "label": "мошенничество с использованием электронных средств платежа",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 3,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.3",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.3",
+   "part": "3",
+   "label": "то же с использованием служебного положения либо в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.3",
+   "part": "4",
+   "label": "то же организованной группой либо в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.5",
+   "part": "1",
+   "label": "мошенничество в сфере страхования",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.5",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.5",
+   "part": "3",
+   "label": "то же с использованием служебного положения либо в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.5",
+   "part": "4",
+   "label": "то же организованной группой либо в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.6",
+   "part": "1",
+   "label": "мошенничество в сфере компьютерной информации",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": null,
+   "fine_min_rub": null,
+   "fine_max_rub": 120000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.6",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.6",
+   "part": "3",
+   "label": "то же с использованием служебного положения либо в крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 6,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "159.6",
+   "part": "4",
+   "label": "то же организованной группой либо в особо крупном размере",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "ограничение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "167",
+   "part": "1",
+   "label": "умышленные уничтожение или повреждение имущества",
+   "category": "небольшой тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 2,
+   "fine_min_rub": null,
+   "fine_max_rub": 40000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "167",
+   "part": "2",
+   "label": "то же из хулиганских побуждений, путём поджога",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "213",
+   "part": "1",
+   "label": "хулиганство",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": 300000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "213",
+   "part": "2",
+   "label": "то же группой лиц либо с сопротивлением",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": 500000,
+   "fine_max_rub": 1000000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "213",
+   "part": "3",
+   "label": "то же с применением взрывчатых веществ",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "1",
+   "label": "незаконные приобретение, передача, сбыт, хранение, перевозка огнестрельного оружия и боеприпасов",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 5,
+   "fine_min_rub": null,
+   "fine_max_rub": 80000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "2",
+   "label": "то же группой лиц",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": 5,
+   "imprisonment_max_years": 8,
+   "fine_min_rub": null,
+   "fine_max_rub": 100000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "3",
+   "label": "то же в отношении огнестрельного оружия ограниченного поражения",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": 6,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 200000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "4",
+   "label": "то же в отношении гражданского гладкоствольного оружия",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": 300000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "5",
+   "label": "то же группой лиц (часть 5)",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": 300000,
+   "fine_max_rub": 500000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "6",
+   "label": "то же при особо квалифицирующих признаках",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "штраф"
+   ],
+   "imprisonment_min_years": 10,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": 500000,
+   "fine_max_rub": 800000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "222",
+   "part": "7",
+   "label": "незаконный сбыт холодного оружия",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "обязательные работы",
+    "исправительные работы",
+    "ограничение свободы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": 80000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "286",
+   "part": "1",
+   "label": "превышение должностных полномочий",
+   "category": "средней тяжести",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "арест",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 4,
+   "fine_min_rub": null,
+   "fine_max_rub": 80000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "286",
+   "part": "2",
+   "label": "то же лицом, занимающим государственную должность",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы",
+    "принудительные работы",
+    "штраф"
+   ],
+   "imprisonment_min_years": null,
+   "imprisonment_max_years": 7,
+   "fine_min_rub": 100000,
+   "fine_max_rub": 300000,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "286",
+   "part": "3",
+   "label": "то же с тяжкими последствиями",
+   "category": "тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 3,
+   "imprisonment_max_years": 10,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "286",
+   "part": "4",
+   "label": "то же (часть 4)",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 4,
+   "imprisonment_max_years": 12,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  },
+  {
+   "article": "286",
+   "part": "5",
+   "label": "то же (часть 5)",
+   "category": "особо тяжкое",
+   "negligent": false,
+   "punishment_types": [
+    "лишение свободы"
+   ],
+   "imprisonment_min_years": 8,
+   "imprisonment_max_years": 15,
+   "fine_min_rub": null,
+   "fine_max_rub": null,
+   "life_or_death": false,
+   "notes": []
+  }
+ ]
+}

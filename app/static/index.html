@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Второе мнение — рабочая область судьи (прототип)</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span>Второе мнение</span>
+        <span class="brand-sub">рабочая область судьи · прототип</span>
+      </div>
+      <nav id="main-nav" class="hidden">
+        <button class="btn btn-ghost" id="nav-cabinet">Личный кабинет</button>
+        <button class="btn btn-ghost" id="nav-logout">Выход</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Экран входа / регистрации -->
+    <section id="view-login" class="hidden">
+      <div class="card auth-card">
+        <h1>Вход в систему</h1>
+        <p class="muted">Прототип «второго мнения» для судьи при назначении наказания. Конкурс ВС РФ «Алгоритм правосудия. Второе мнение».</p>
+        <div class="tabs" id="auth-tabs">
+          <button class="tab active" data-mode="login" type="button">Вход</button>
+          <button class="tab" data-mode="register" type="button">Регистрация</button>
+        </div>
+        <form id="auth-form" class="form" autocomplete="off">
+          <label>Имя пользователя
+            <input type="text" id="auth-username" autocomplete="username" placeholder="латиница, цифры, _" />
+          </label>
+          <label>Пароль
+            <input type="password" id="auth-password" autocomplete="current-password" />
+          </label>
+          <label id="field-fullname" class="hidden">Отображаемое имя (можно псевдоним)
+            <input type="text" id="auth-fullname" autocomplete="name" placeholder="Участник команды" />
+          </label>
+          <div id="auth-error" class="alert alert-error hidden"></div>
+          <button type="submit" class="btn btn-primary" id="auth-submit">Войти</button>
+        </form>
+        <p class="muted small">Демо-доступ: <code>demo / demo123</code></p>
+      </div>
+    </section>
+
+    <!-- Личный кабинет -->
+    <section id="view-cabinet" class="hidden">
+      <div class="cabinet-head">
+        <div>
+          <h1>Личный кабинет</h1>
+          <p class="muted" id="cabinet-greeting"></p>
+        </div>
+        <button class="btn btn-primary" id="btn-new-analysis" type="button">＋ Новый анализ</button>
+      </div>
+      <div class="card">
+        <h2>Прошлые анализы</h2>
+        <table class="table" id="history-table">
+          <thead>
+            <tr><th>Файл</th><th>Дата</th><th>Статья</th><th>Статус проверки</th><th>Действия</th></tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+        <p class="muted" id="history-empty" hidden>Анализов пока нет. Нажмите «Новый анализ», чтобы загрузить первый документ.</p>
+      </div>
+    </section>
+
+    <!-- Рабочая область анализа -->
+    <section id="view-analyze" class="hidden">
+      <div class="cabinet-head">
+        <div>
+          <h1>Рабочая область анализа</h1>
+          <p class="muted" id="analyze-subtitle">Загрузите проект судебного акта — система извлечёт параметры дела, проверит наказание и покажет похожие дела.</p>
+        </div>
+        <button class="btn btn-ghost" id="btn-back-cabinet" type="button">← В кабинет</button>
+      </div>
+
+      <div class="demo-strip">
+        <div><strong>Проверка с объяснением</strong><p>Учебный локальный прототип · редакции закона требуют сверки</p></div>
+        <button class="btn btn-secondary" id="demo-ok" type="button">Пример в пределах правил</button>
+        <button class="btn btn-secondary" id="demo-error" type="button">Пример с ошибками</button>
+        <button class="btn btn-secondary" id="demo-attempt" type="button">Пример: покушение</button>
+      </div>
+      <div class="card" id="upload-card">
+        <div class="dropzone" id="dropzone">
+          <p class="dropzone-title">Перетащите файл сюда</p>
+          <p class="muted">или</p>
+          <label class="btn btn-secondary file-label">Выбрать файл (.pdf, .docx, .txt)
+            <input type="file" id="file-input" accept=".pdf,.docx,.txt" hidden />
+          </label>
+          <p class="muted small" id="file-name">Файл не выбран</p>
+        </div>
+        <label class="consent">
+          <input type="checkbox" id="consent-check" />
+          <span>Подтверждаю право загрузки учебного документа. Для демонстрации использую синтетические данные. Эта отметка не является согласием всех лиц по 152-ФЗ. Маскирование эвристическое. В истории сохраняется сокращённый отчёт без текста документа.</span>
+        </label>
+        <button class="btn btn-primary btn-wide" id="btn-analyze" type="button" disabled>Провести анализ</button>
+        <div id="progress" class="progress hidden">
+          <div class="spinner"></div>
+          <span>Идёт анализ документа… это может занять некоторое время</span>
+        </div>
+        <div id="analyze-error" class="alert alert-error hidden"></div>
+      </div>
+
+      <div id="result-block" class="hidden">
+        <div id="result-summary" class="review-summary"></div>
+        <button class="btn btn-secondary" id="export-report" type="button">Скачать сокращённый отчёт JSON</button>
+        <div class="card">
+          <div class="tabs" id="result-tabs">
+            <button class="tab active" data-tab="parameters" type="button">Параметры дела</button>
+            <button class="tab" data-tab="check" type="button">Проверка наказания</button>
+            <button class="tab" data-tab="similar" type="button">Похожие дела</button>
+            <button class="tab" data-tab="conclusion" type="button">Заключение</button>
+            <button class="tab" data-tab="masked" type="button">Текст после маскирования</button>
+          </div>
+          <div class="tab-pane" id="pane-parameters"></div>
+          <div class="tab-pane hidden" id="pane-check"></div>
+          <div class="tab-pane hidden" id="pane-similar"></div>
+          <div class="tab-pane hidden" id="pane-conclusion"></div>
+          <div class="tab-pane hidden" id="pane-masked"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Прототип для конкурса ВС РФ «Алгоритм правосудия. Второе мнение». Система является вспомогательным инструментом, не принимает судебных решений и не заменяет судью. Заключение носит справочный характер.</p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

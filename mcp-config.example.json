@@ -1,0 +1,9 @@
+{
+  "_comment": "Настройка для синтетического демо. Замените пути на пути улучшенного проекта. Не подключайте реальные судебные данные к внешнему ИИ-клиенту без отдельного разрешённого контура. VO_MCP_DOCUMENT_DIR по умолчанию не задан.",
+  "mcpServers": {
+    "vsrf-second-opinion": {
+      "command": "C:/PATH/TO/PROJECT/.venv/Scripts/python.exe",
+      "args": ["C:/PATH/TO/PROJECT/mcp_server/server.py"]
+    }
+  }
+}

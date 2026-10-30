@@ -1,0 +1,35 @@
+name: second-opinion
+services:
+  backend:
+    build: .
+    environment:
+      VO_DATA_DIR: /var/lib/second-opinion
+      VO_LLM_BASE_URL: ${VO_LLM_BASE_URL:-}
+      VO_LLM_MODEL: ${VO_LLM_MODEL:-}
+      VO_LLM_PROVIDER: ${VO_LLM_PROVIDER:-ollama}
+      VO_LLM_API_KEY: ${VO_LLM_API_KEY:-}
+      VO_DEMO_PASSWORD: ${VO_DEMO_PASSWORD:-demo123}
+    volumes:
+      - db_data:/var/lib/second-opinion
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+  ui:
+    image: nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236
+    ports: ["127.0.0.1:8080:80"]
+    volumes:
+      - ./app/static:/usr/share/nginx/html:ro
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  db_data:
